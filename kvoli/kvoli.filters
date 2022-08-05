@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{eb117fd3-15bc-4d38-b663-144776c77331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Entry">
+      <UniqueIdentifier>{38312089-e91e-4b05-ab68-b3661803d14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\SDK">
+      <UniqueIdentifier>{bc9f8ea3-d97c-460f-aac0-d41e79c6c084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\SDK\SDK Classes">
+      <UniqueIdentifier>{dc9d5e57-fd41-4c58-a34d-9eefc876f9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\SDK\SDK Interfaces">
+      <UniqueIdentifier>{7141acbe-699a-428a-b9f2-fb188772c27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\SDK\SDK Misc">
+      <UniqueIdentifier>{3bb2db16-340f-489e-928c-d742195201e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\VMT">
+      <UniqueIdentifier>{ee36e587-7734-41f2-b876-a88108a2e09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Hooks">
+      <UniqueIdentifier>{633f894d-7bd4-4078-9dfc-4c1687ec6f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Features">
+      <UniqueIdentifier>{af630399-e101-41cc-bc6f-a4822d3766b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util">
+      <UniqueIdentifier>{bba1f309-8eb0-4c61-ae64-0ba732e7cc24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="good.cpp">
+      <Filter>Main\Entry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="good.h">
+      <Filter>Main\Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>Main\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VFunc.h">
+      <Filter>Main\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Main\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseCombatWeapon.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngineClient.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="player_info_s.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientEntityList.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CIVDebugOverlay.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IPanel.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVarsBase.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientModeShared.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngineTrace.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceRayClasses.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>Main\SDK\SDK Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="HookManager.h">
+      <Filter>Main\VMT</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetChannelInfo.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="InitHooks.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMove.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserCmd.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bunnyhop.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="OverrideView.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleAndVectorFunctions.h">
+      <Filter>Main\SDK\SDK Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientRenderable.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetworkable.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTraverse.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingHelper.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="CPrediction.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMovement.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="RunCommand.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAntiAim.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameStageNotify.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="FindMaterial.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterialSystem.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ASUS.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ICvar.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelRender.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="studiohdr.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IInput.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="W2S.h">
+      <Filter>Main\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.h">
+      <Filter>Main\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerList.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="GetAlivePlayers.h">
+      <Filter>Main\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValues.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValuesSystem.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GetWeaponName.h">
+      <Filter>Main\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvent.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventListener.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventManager.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="FireEventClientSide.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModelExecute.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModelState_t.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRenderInfo_t.h">
+      <Filter>Main\SDK\SDK Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IVRenderView.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialCreator.h">
+      <Filter>Main\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FindPattern.h">
+      <Filter>Main\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="KillSounds.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ISteamUser.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISteamClient.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorFromHSB.h">
+      <Filter>Main\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuDrawing.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySong.h">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineSound.h">
+      <Filter>Main\SDK\SDK Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="StepMania.h">
+      <Filter>Main\Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

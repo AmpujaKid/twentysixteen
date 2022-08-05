@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="kvoli.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleAndVectorFunctions.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAntiAim.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ASUS.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bunnyhop.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseCombatWeapon.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientEntityList.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientModeShared.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngineClient.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngineTrace.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMovement.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVarsBase.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CIVDebugOverlay.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetChannelInfo.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorFromHSB.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPrediction.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMove.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserCmd.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingHelper.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModelExecute.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModelState_t.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindMaterial.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindPattern.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="FireEventClientSide.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameStageNotify.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetAlivePlayers.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetWeaponName.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="HookManager.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetworkable.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientRenderable.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICvar.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineSound.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvent.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventListener.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventManager.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IInput.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterialSystem.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitHooks.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPanel.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISteamClient.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISteamUser.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelRender.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVRenderView.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValues.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValuesSystem.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="KillSounds.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="kvoli.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialCreator.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuDrawing.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRenderInfo_t.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="OverrideView.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTraverse.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="player_info_s.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerList.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySong.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prediction.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunCommand.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="StepMania.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="studiohdr.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceRayClasses.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="VFunc.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="W2S.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{5d519335-fe97-4b96-816c-7039a4040246}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+class ConVar {
+public:
+
+};
